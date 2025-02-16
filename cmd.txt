@@ -1,4 +1,6 @@
 
 16.02.2025
+    9
+        git add . && git commit -m " update styles.css with place-items: center; " && git push origin main 
     7
         git add . && git commit -m " first commit" && git push origin main

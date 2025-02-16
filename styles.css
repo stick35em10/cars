@@ -3,8 +3,18 @@ body {
     margin: 0;
     padding: 0;
     background: #f4f4f4;
+    text-align: center;
 }
 
+
+/* 
+<main>
+        <section id="car-list">
+            <h2>Viaturas Disponíveis para o stick 35 em 10</h2>
+            <div id="car-container"></div>
+        </section>
+    </main>
+*/
 header {
     background: #333;
     color: #fff;
@@ -14,15 +24,19 @@ header {
 
 main {
     padding: 20px;
+    place-items: center;
 }
 
 #car-container {
+    text-align: center;
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+    
 }
 
 .card {
+    text-align: center;
     background: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -32,14 +46,17 @@ main {
 }
 
 .card h3 {
+    text-align: center;
     margin: 0 0 10px;
 }
 
 .card p {
+    text-align: center;
     margin: 5px 0;
 }
 
 .card button {
+    text-align: center;
     background: #28a745;
     color: #fff;
     border: none;
