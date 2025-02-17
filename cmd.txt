@@ -1,8 +1,8 @@
 
 16.02.2025
     9,11,12
-        git add index.html cmd.txt img/Ractis/* img/nissan otti 2013/* && git commit -m " add index.html cmd.txt img/Ractis/* img/nissan otti 2013/* " && git push origin main 
-        
+        git add cmd.txt img/Ractis/* 'img/nissan otti 2013/*' && git commit -m " add index.html cmd.txt img/Ractis/* img/nissan otti 2013/* " && git push origin main     
+        git add index.html cmd.txt img/Ractis/* 'img/nissan otti 2013/*' && git commit -m " add index.html cmd.txt img/Ractis/* img/nissan otti 2013/* " && git push origin main     
         git add index.html css/style_whatsapp.css && git commit -m " add index.html css/style_whatsapp.css " && git push origin main 
         git add . && git commit -m " update styles.css with place-items: center; " && git push origin main 
     7
