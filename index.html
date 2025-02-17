@@ -4,24 +4,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Venda de Viaturas</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- -->
+    <link rel="stylesheet" href="css/style_cronometro02.css">
+    
+    
+    <script src="js/scriptcronometro02.js"></script>
+    
 </head>
 <body>
     <header>
         <h1>Loja de Viaturas para o stick 35 em 10</h1>
     </header>
+    <!-- <link rel="stylesheet" href="css/style_cronometro02.css"> -->
+    <div class="container">
+      <h3>Contagem Regressiva para o Evento</h3>
+      <div id="countdown">
+          <div class="countdown-item">
+              <span id="days">00</span>
+              Dias
+          </div>
+          <div class="countdown-item">
+              <span id="hours">00</span>
+              Horas
+          </div>
+          <div class="countdown-item">
+              <span id="minutes">00</span>
+              Minutos
+          </div>
+          <div class="countdown-item">
+              <span id="seconds">00</span>
+              Segundos
+          </div>
+      </div>
+  </div> <!-- class="container" -->
+
+  <!-- Efeito de partículas (opcional) -->
+  <div class="particles"></div>
+  
     <main>
         <section id="car-list">
-            <h2>Viaturas Disponíveis para o stick 35 em 10</h2>
-            <div id="car-container"></div>
+            <div id="car-list-03"></div>
+            <h3>Viaturas Disponíveis </h3>
+            
         </section>
+        
+
+        <section id="car-list-02">
+              <div id="slideshow-example" data-component="slideshow">
+                <div role="list">
+                  <div class="slide">
+                    <img src="img/Ractis/01.jpg" alt="Toyota">
+                  </div>
+                  <div class="slide">
+                    <img src="img/Mazda Verisa/01.jpg" alt="Marza">
+                  </div>
+                  <!--
+                  
+                  <div class="slide">
+                    <img src="img/nissan otti 2013/01.jpg" alt="Nissan">
+                  </div>
+                  -->
+                  <div class="slide">
+                    <img src="img/Ractis/02.jpg" alt="Toyota">
+                  </div>
+                  <div class="slide">
+                    <img src="img/Mazda Verisa/02.jpg" alt="Marza">
+                  </div>
+                  <div class="slide">
+                    <img src="img/nissan otti 2013/02.jpg" alt="Nissan">
+                  </div>
+                  <div class="slide">
+                    <img src="img/Ractis/03.jpg" alt="Toyota">
+                  </div>
+                  <div class="slide">
+                    <img src="img/Mazda Verisa/03.jpg" alt="Marza">
+                  </div>
+                  <div class="slide">
+                    <img src="img/nissan otti 2013/03.jpg" alt="Nissan">
+                  </div>
+                  <div class="slide">
+                    <img src="img/Ractis/04.jpg" alt="Toyota">
+                  </div>
+                  <!--
+                  <div class="slide">
+                    <img src="img/Mazda Verisa/04.jpg" alt="Marza">
+                  </div>
+                  -->
+                  <div class="slide">
+                    <img src="img/nissan otti 2013/04.jpg" alt="Nissan">
+                  </div>
+                  <div class="slide">
+                    <img src="img/Ractis/05.jpg" alt="Toyota">
+                  </div>
+                  <div class="slide">
+                    <img src="img/Mazda Verisa/05.jpg" alt="Marza">
+                  </div>
+                  <!--
+                  
+                  <div class="slide">
+                    <img src="img/nissan otti 2013/05.jpg" alt="Nissan">
+                  </div>
+                  -->
+                  <div class="slide">
+                    <img src="img/Ractis/06.jpg" alt="Toyota">
+                  </div>
+                  <div class="slide">
+                    <img src="img/Mazda Verisa/06.jpg" alt="Marza">
+                  </div>
+                  <!--
+                  
+                  <div class="slide">
+                    <img src="img/nissan otti 2013/06.jpg" alt="Nissan">
+                  </div>
+                  -->
+                </div>
+              </div>
+              <div id="slideshow-example" data-component="slideshow">
+                <div role="list">            
+                </div>
+              </div>
+        </section>
+        <div id="car-container"></div>
+        
     </main>
     <footer>
         <p>&copy; 2025 stick 35 em 10</p>
     </footer>
-    <footer>
-        <p>&copy; 2025 Car Sales. All rights reserved.</p>
-    </footer>
-    <script src="script.js"></script>
+
+    <script src="js/script.js"></script>
+    <script src="js/slideshow.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
