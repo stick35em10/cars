@@ -1,0 +1,33 @@
+.whatsapp-share-button {
+    display: inline-block;            
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-size: 100% 100%; /* ou 'contain' */
+    background-image: url("[URL-DO-ICONE]");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/**
+ * Tamanho somente para ilustrar! Tenha em mente que
+ * a instalação do aplicativo não é restrita a smartphones.
+ */
+ @media screen and (min-width: 860px){
+    .compartilhar-whatsapp {
+      display: none;
+    }
+  }
+
+  .whatsapp-link {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.whatsapp-link i {
+    margin-right: 10px;
+}
